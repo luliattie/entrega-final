@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'frunchyregular';
+    src: url(/fonts/frunchy-webfont.woff) format('woff'),
+         url(/fonts/frunchy-webfont.woff2) format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'NeueHaasGroteskText Pro Md';
+    src: url(/fonts/NHaasGroteskTXPro-65Md.woff2) format('woff2'),
+        url(/fonts/NHaasGroteskTXPro-65Md.woff) format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NeueHaasGroteskText Pro';
+    src: url(/fonts/NHaasGroteskTXPro-55Rg.woff2) format('woff2'),
+        url(/fonts/NHaasGroteskTXPro-55Rg.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Haas Grotesk Display Pro';
+    src: url(/fonts/NeueHaasDisplay-Light.woff2) format('woff2'),
+        url(/fonts/NeueHaasDisplay-Light.woff) format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+* {box-sizing: border-box;}
+body {background-color: #EEEEEE;}
+nav {font-family: 'Neue Haas Grotesk Display Pro';}
+header {font-family: 'Neue Haas Grotesk Display Pro'; height: 80vh;}
+h1 {font-size: 15rem; line-height: 0.6em; font-family: 'frunchyregular';}
+h2 {font-size: 2.6rem; font-family: 'Neue Haas Grotesk Display Pro'; }
+
+.imagen {
+    background-image: url('/imagenes/fondo.jpg');
+   
+}
